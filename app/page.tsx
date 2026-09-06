@@ -1,156 +1,90 @@
 const Arrow = () => <span aria-hidden="true">↗</span>;
 
+const credentials = [
+  ["Speech & Debate", "President · 65-member team", "Two-time NSDA Nationals qualifier, TFA State semifinalist in Original Oratory, and ranked second in Texas for Informative Speaking."],
+  ["Civic Participation", "New Voters · League of Women Voters", "Led multi-district voter-registration efforts, represented my school in Collin County, and created civic education for first-time voters."],
+  ["Ideas & Media", "The Attention Economy", "Interviewed 24 economics professors and small-business owners about trends, psychology, markets, and the role attention plays in political campaigns."],
+  ["Education Access", "VoiceToLead · Schoolhouse.world", "Built speaking programs for younger students and tutored 96 learners from 12 countries in math and reading—at no cost."],
+  ["Research", "Smithsonian Climate Action", "Completed a 14-week project and produced a documentary on how cities adapt urban planning to climate risk."],
+  ["Arts", "Classical piano", "Golden Classical Music Awards First Prize recipient and solo performer at Weill Recital Hall at Carnegie Hall."],
+];
+
 export default function Home() {
   return (
     <main>
       <nav className="nav" aria-label="Primary navigation">
-        <a className="wordmark" href="#top" aria-label="Nidhi Maddi, home">
-          NM<span>.</span>
-        </a>
+        <a className="wordmark" href="#top">Nidhi Maddi<span>.</span></a>
         <div className="navLinks">
-          <a href="#story">My story</a>
-          <a href="#work">My work</a>
-          <a className="navCta" href="mailto:voicetolead@gmail.com">Say hello <Arrow /></a>
+          <a href="#lens">My lens</a><a href="#work">Selected work</a><a href="#credentials">Credentials</a>
+          <a className="navCta" href="mailto:voicetolead@gmail.com">Connect <Arrow /></a>
         </div>
       </nav>
 
-      <section className="hero" id="top">
+      <section className="hero brandHero" id="top">
         <div className="heroCopy">
-          <p className="eyebrow"><span /> Speaker · Founder · Advocate</p>
-          <h1>I found my voice.<br /><em>Now I help others find theirs.</em></h1>
-          <p className="heroLead">
-            I’m Nidhi Maddi, founder of VoiceToLead. I turn lived experience into
-            spaces where young people can speak with courage, lead with clarity,
-            and know their stories matter.
-          </p>
-          <div className="heroActions">
-            <a className="button primary" href="#story">Read my story <span aria-hidden="true">↓</span></a>
-            <a className="textLink" href="https://www.voicetolead.org" target="_blank" rel="noreferrer">Visit VoiceToLead <Arrow /></a>
-          </div>
+          <p className="eyebrow"><span /> Civic communicator · Founder · Researcher</p>
+          <h1>Who gets heard<br />when <em>institutions decide?</em></h1>
+          <p className="heroLead">I’m Nidhi Maddi. Across speech, civic participation, media, technology, and education, I explore how rules and incentives shape whose voices carry power.</p>
+          <div className="heroActions"><a className="button primary" href="#lens">See the throughline <span>↓</span></a><a className="textLink" href="#credentials">View credentials <Arrow /></a></div>
         </div>
-        <div className="heroVisual">
-          <div className="portraitFrame">
-            <img src="/nidhi-portrait.jpg" alt="Nidhi Maddi" />
-          </div>
-          <p className="marginNote">Based in Texas<br />Building brave voices</p>
-          <span className="spark sparkOne">✦</span>
-          <span className="spark sparkTwo">✦</span>
+        <div className="heroVisual brandVisual">
+          <div className="portraitFrame"><img src="/nidhi-portrait.jpg" alt="Nidhi Maddi" /></div>
+          <div className="orbitNote topNote">Business</div><div className="orbitNote leftNote">Law</div><div className="orbitNote bottomNote">Public voice</div>
         </div>
       </section>
 
-      <section className="beliefStrip" aria-label="Nidhi's guiding belief">
-        <p>We all deserve to be <em>heard,</em> not just seen.</p>
-        <span>01 / Guiding belief</span>
-      </section>
+      <section className="beliefStrip"><p>Voice is personal. <em>Power is structural.</em></p><span>My central question</span></section>
 
-      <section className="story section" id="story">
-        <div className="sectionLabel"><span>01</span> The story</div>
-        <div className="storyGrid">
-          <div className="storyTitle">
-            <h2>It started<br />with silence.</h2>
-            <div className="smallPortrait">
-              <img src="/nidhi-headshot.png" alt="Portrait of Nidhi Maddi" />
-            </div>
-          </div>
-          <div className="storyBody">
-            <p className="largeCopy">
-              Before I was thirteen, public speaking felt impossible. I struggled
-              to begin everyday conversations or stand up for myself—and, over
-              time, I began to believe I didn’t deserve to be heard.
-            </p>
-            <p>
-              An eighth-grade English teacher changed that trajectory by teaching
-              my class how to present. At first, I was terrible. Then, with
-              practice, I became a little less terrible. In high school, speech
-              and debate transformed that small opening into real confidence.
-            </p>
-            <blockquote>
-              “My voice didn’t arrive all at once. I built it—one brave attempt at a time.”
-            </blockquote>
-            <p>
-              What began as a personal transformation became a larger purpose:
-              helping young people discover much earlier that their ideas, their
-              presence, and their stories belong in the room.
-            </p>
-          </div>
+      <section className="lens section" id="lens">
+        <div className="sectionLabel"><span>01</span> My lens</div>
+        <div className="lensLead"><h2>Communication opened the door.<br /><em>Institutions became the question.</em></h2><p>Speech taught me to claim a voice. My work since then has pushed me toward a harder question: how do organizations, markets, laws, and technologies decide who gets access, protection, and influence?</p></div>
+        <div className="pillars">
+          <article><span>01</span><h3>Voice</h3><p>Competitive speech turned practice into confidence. Leading and mentoring showed me how communication changes what people believe they can do.</p><small>Speech & Debate · Mentorship</small></article>
+          <article><span>02</span><h3>Access</h3><p>Teaching, tutoring, voter registration, and language-access work revealed that participation depends on more than motivation—it depends on systems.</p><small>Education · Voting · Language</small></article>
+          <article><span>03</span><h3>Accountability</h3><p>Building technology and studying media made ethics concrete: useful tools still require consent, privacy, transparency, and responsible incentives.</p><small>AI · Media · Institutional ethics</small></article>
         </div>
       </section>
 
-      <section className="turningPoint section">
-        <p className="chapter">The turning point</p>
-        <div className="timeline">
-          <article>
-            <span>01</span>
-            <h3>Learning to begin</h3>
-            <p>A classroom presentation gave me a first, imperfect way into public speaking.</p>
-          </article>
-          <article>
-            <span>02</span>
-            <h3>Finding confidence</h3>
-            <p>Speech and debate turned repetition into skill—and skill into self-belief.</p>
-          </article>
-          <article>
-            <span>03</span>
-            <h3>Creating the invitation</h3>
-            <p>I founded VoiceToLead so more young people could practice, grow, and be heard.</p>
-          </article>
-        </div>
+      <section className="academicDirection section">
+        <div className="directionText"><p className="chapter">Academic direction</p><h2>Legal Studies<br />&amp; Business Ethics</h2></div>
+        <div className="directionBody"><p className="largeCopy">I want to study the rules—written and unwritten—that govern consequential decisions inside businesses and public institutions.</p><p>I’m especially interested in how regulation, organizational incentives, emerging technology, and ethical judgment interact. Legal Studies &amp; Business Ethics gives me the language to connect work I have already begun: protecting minors’ data in an AI speech tool, examining the attention economy, expanding civic participation, and asking how cities distribute climate protection.</p><div className="questionCard"><span>The question I’m carrying forward</span><strong>How can institutions scale opportunity without losing accountability to the people they serve?</strong></div></div>
       </section>
 
       <section className="work section" id="work">
-        <div className="sectionLabel light"><span>02</span> The work</div>
-        <div className="workIntro">
-          <h2>Voice is a skill.<br /><em>Belonging is the outcome.</em></h2>
-          <p>
-            Through VoiceToLead, I oversee curriculum, mentor training, and school
-            partnerships that help young speakers develop communication and
-            leadership skills in supportive, practical spaces.
-          </p>
+        <div className="sectionLabel light"><span>02</span> Selected work</div>
+        <div className="workFeature">
+          <div><p className="featureIndex">01 / Voice & leadership</p><h2>From finding my voice<br />to building rooms for others.</h2></div>
+          <div><h3>Speech, Debate & VoiceToLead</h3><p>I lead a 65-member speech and debate team, mentor younger competitors, and compete nationally. I founded VoiceToLead—a fiscally sponsored nonprofit project—to translate those skills into free, practical speaking education for younger students.</p><ul><li>Mentored 20 underclassmen in speech construction and delivery</li><li>Invested 100+ hours building and delivering programming</li><li>Served approximately 65 students across four schools</li><li>Built an AI coach with privacy and consent as design responsibilities</li></ul></div>
         </div>
-        <div className="workCards">
-          <article>
-            <span className="cardNumber">01</span>
-            <h3>Build the skill</h3>
-            <p>Hands-on public speaking labs make confidence something students can practice—not something they either have or don’t.</p>
-          </article>
-          <article>
-            <span className="cardNumber">02</span>
-            <h3>Share the tools</h3>
-            <p>Mentors and educators get thoughtful resources that turn encouragement into repeatable growth.</p>
-          </article>
-          <article className="accentCard">
-            <span className="cardNumber">03</span>
-            <h3>Change the room</h3>
-            <p>When a young person learns to trust their voice, they show up differently—in classrooms, communities, and leadership.</p>
-          </article>
+        <div className="workFeature reverse">
+          <div><p className="featureIndex">02 / Civic agency</p><h2>Participation starts<br />before the ballot.</h2></div>
+          <div><h3>New Voters, LWV & civic education</h3><p>My civic work focuses on the barriers between formal rights and real participation: registration, first-time voter knowledge, language, media literacy, and confidence navigating institutions.</p><ul><li>Helped register 200 eligible voters through a three-district drive</li><li>Supported a school drive reaching 75% of eligible seniors</li><li>Selected as one of 12 students for the New Voters Press Network</li><li>Created naturalization and first-time voter education</li></ul></div>
         </div>
-        <a className="button cream" href="https://www.voicetolead.org" target="_blank" rel="noreferrer">Explore VoiceToLead <Arrow /></a>
-      </section>
-
-      <section className="principles section">
-        <div className="sectionLabel"><span>03</span> What guides me</div>
-        <div className="principleList">
-          <div><span>01</span><h3>Start before you feel ready.</h3></div>
-          <div><span>02</span><h3>Make confidence practiceable.</h3></div>
-          <div><span>03</span><h3>Leave the room more open than you found it.</h3></div>
+        <div className="workFeature">
+          <div><p className="featureIndex">03 / Markets & ideas</p><h2>Studying what<br />captures attention.</h2></div>
+          <div><h3>The Attention Economy</h3><p>Through 24 conversations with economics professors and small-business owners, I examined how trends move through markets, why people follow them, and how attention becomes economic and political power.</p><p className="featureQuote">The project shifted my interest from persuasion alone to the incentives behind persuasion—and the responsibilities of those who profit from it.</p></div>
         </div>
       </section>
 
-      <section className="contact section">
-        <p className="eyebrow"><span /> Let’s connect</p>
-        <h2>Have a story to tell<br />or a room to change?</h2>
-        <p>I’d love to hear what you’re building.</p>
-        <a className="button primary" href="mailto:voicetolead@gmail.com">Start a conversation <Arrow /></a>
+      <section className="credentials section" id="credentials">
+        <div className="sectionLabel"><span>03</span> Academic & extracurricular snapshot</div>
+        <div className="credIntro"><h2>Evidence of range.<br /><em>One consistent direction.</em></h2><p>A selective snapshot for context—not a transcript. Every credential connects to how I learn, lead, and engage with public problems.</p></div>
+        <div className="statRow"><div><strong>Top 1.7%</strong><span>Class rank</span></div><div><strong>1530</strong><span>SAT</span></div><div><strong>21 APs</strong><span>Completed or planned</span></div><div><strong>7 × 5</strong><span>Junior-year AP exams</span></div></div>
+        <div className="credentialGrid">{credentials.map(([title, eyebrow, copy], i) => <article key={title}><span>{String(i + 1).padStart(2, "0")}</span><small>{eyebrow}</small><h3>{title}</h3><p>{copy}</p></article>)}</div>
       </section>
 
-      <footer>
-        <a className="wordmark footerMark" href="#top">NM<span>.</span></a>
-        <p>© {new Date().getFullYear()} Nidhi Maddi</p>
-        <div>
-          <a href="https://www.instagram.com/voice.to.lead" target="_blank" rel="noreferrer">Instagram <Arrow /></a>
-          <a href="mailto:voicetolead@gmail.com">Email <Arrow /></a>
+      <section className="honors section">
+        <div className="sectionLabel"><span>04</span> Selected recognition</div>
+        <div className="honorList">
+          <div><span>Speech</span><strong>TFA State Semifinalist · 2× NSDA Nationals Qualifier · 2× NIETOC Qualifier · TOC Qualifier</strong></div>
+          <div><span>Scholarship</span><strong>NSDA Academic All-American · National Merit qualifying score</strong></div>
+          <div><span>Service</span><strong>Bronze President’s Volunteer Service Award</strong></div>
+          <div><span>Music</span><strong>Golden Classical Music Awards, First Prize · Trinity Level 7</strong></div>
         </div>
-      </footer>
+      </section>
+
+      <section className="contact section"><p className="eyebrow"><span /> Let’s connect</p><h2>Interested in voice,<br />institutions, or impact?</h2><p>I’m always interested in thoughtful conversations across business, law, civic life, education, and technology.</p><a className="button primary" href="mailto:voicetolead@gmail.com">Start a conversation <Arrow /></a></section>
+      <footer><a className="wordmark footerMark" href="#top">Nidhi Maddi<span>.</span></a><p>© {new Date().getFullYear()} Nidhi Maddi</p><div><a href="https://www.voicetolead.org" target="_blank" rel="noreferrer">VoiceToLead <Arrow /></a><a href="mailto:voicetolead@gmail.com">Email <Arrow /></a></div></footer>
     </main>
   );
 }
