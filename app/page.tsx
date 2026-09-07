@@ -37,7 +37,7 @@ export default function Home() {
 
       <section className="lens section" id="lens">
         <div className="sectionLabel"><span>01</span> My lens</div>
-        <div className="lensLead"><h2>Communication opened the door.<br /><em>Institutions became the question.</em></h2><p>Speech taught me to claim a voice. My work since then has pushed me toward a harder question: how do organizations, markets, laws, and technologies decide who gets access, protection, and influence?</p></div>
+        <div className="lensLead"><h2>What I’m learning<br /><em>through the work.</em></h2><p>Speech taught me to claim a voice. My work since then has pushed me toward a harder question: how do organizations, markets, laws, and technologies decide who gets access, protection, and influence?</p></div>
         <div className="pillars">
           <article><span>01</span><h3>Voice</h3><p>Competitive speech turned practice into confidence. Leading and mentoring showed me how communication changes what people believe they can do.</p><small>Speech & Debate · Mentorship</small></article>
           <article><span>02</span><h3>Access</h3><p>Teaching, tutoring, voter registration, and language-access work revealed that participation depends on more than motivation—it depends on systems.</p><small>Education · Voting · Language</small></article>
