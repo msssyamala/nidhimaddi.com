@@ -5,7 +5,7 @@ const credentials = [
   ["Civic Participation", "New Voters · League of Women Voters", "Led multi-district voter-registration efforts, represented my school in Collin County, and created civic education for first-time voters."],
   ["Ideas & Media", "The Attention Economy", "Interviewed 14 experts, economics professors and small-business owners about trends, psychology, markets, and the role attention plays in political campaigns."],
   ["Education Access", "VoiceToLead · Schoolhouse.world", "Built speaking programs for younger students and tutored 96 learners from 12 countries in math and reading—at no cost."],
-  ["Research", "Smithsonian Climate Action", "Selected for a 20-student Smithsonian Climate Action cohort and completed a 14-week research capstone examining how urban planning and public policy shape climate resilience and disaster response."],
+  ["Research", "Smithsonian Climate Action", "Selected for a 20-student Smithsonian Climate Action cohort and completed a 14-week research capstone, producing a documentary on how urban planning and public policy shape climate resilience and disaster response."],
   ["Arts", "Classical piano", "Golden Classical Music Awards First Prize recipient and selected as solo performer at Weill Recital Hall at Carnegie Hall."],
 ];
 
