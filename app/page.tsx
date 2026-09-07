@@ -68,7 +68,7 @@ export default function Home() {
 
       <section className="credentials section" id="credentials">
         <div className="sectionLabel"><span>03</span> Academic & extracurricular snapshot</div>
-        <div className="credIntro"><h2>Evidence of range.<br /><em>One consistent direction.</em></h2><p>A selective snapshot for context—not a transcript. Every credential connects to how I learn, lead, and engage with public problems.</p></div>
+        <div className="credIntro"><h2>Beyond the classroom.<br /><em>Across disciplines and communities.</em></h2><p>A snapshot of the experiences that have shaped my interests—from competitive speech and civic engagement to research, education, technology, and the arts.</p></div>
         <div className="statRow"><div><strong>Top 1.7%</strong><span>Class rank</span></div><div><strong>1530</strong><span>SAT</span></div><div><strong>21 APs</strong><span>Completed or planned</span></div><div><strong>7 × 5</strong><span>Junior-year AP exams</span></div></div>
         <div className="credentialGrid">{credentials.map(([title, eyebrow, copy], i) => <article key={title}><span>{String(i + 1).padStart(2, "0")}</span><small>{eyebrow}</small><h3>{title}</h3><p>{copy}</p></article>)}</div>
       </section>
