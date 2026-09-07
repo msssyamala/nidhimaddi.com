@@ -23,8 +23,8 @@ export default function Home() {
       <section className="hero brandHero" id="top">
         <div className="heroCopy">
           <p className="eyebrow"><span /> Civic communicator · Founder · Researcher</p>
-          <h1>Who gets heard<br />when <em>institutions decide?</em></h1>
-          <p className="heroLead">I’m Nidhi Maddi. Across speech, civic participation, media, technology, and education, I explore how rules and incentives shape whose voices carry power.</p>
+          <h1>Finding my voice.<br /><em>Expanding who gets heard.</em></h1>
+          <p className="heroLead">I’m Nidhi Maddi, a student, speaker, builder, and civic advocate. My work has taken me from competitive speech and classrooms to voter engagement, media research, and responsible technology.</p>
           <div className="heroActions"><a className="button primary" href="#lens">See the throughline <span>↓</span></a><a className="textLink" href="#credentials">View credentials <Arrow /></a></div>
         </div>
         <div className="heroVisual brandVisual">
