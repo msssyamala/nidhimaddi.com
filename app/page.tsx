@@ -1,12 +1,12 @@
 const Arrow = () => <span aria-hidden="true">↗</span>;
 
 const credentials = [
-  ["Speech & Debate", "President · 65-member team", "Two-time NSDA Nationals qualifier, TFA State semifinalist in Original Oratory, and ranked second in Texas for Informative Speaking."],
+  ["Speech & Debate", "President · 65-member team", "Two-time NSDA Nationals qualifier, TFA State semifinalist in Original Oratory, and ranked overall second in Texas for Informative Speaking."],
   ["Civic Participation", "New Voters · League of Women Voters", "Led multi-district voter-registration efforts, represented my school in Collin County, and created civic education for first-time voters."],
-  ["Ideas & Media", "The Attention Economy", "Interviewed 24 economics professors and small-business owners about trends, psychology, markets, and the role attention plays in political campaigns."],
+  ["Ideas & Media", "The Attention Economy", "Interviewed 14 experts, economics professors and small-business owners about trends, psychology, markets, and the role attention plays in political campaigns."],
   ["Education Access", "VoiceToLead · Schoolhouse.world", "Built speaking programs for younger students and tutored 96 learners from 12 countries in math and reading—at no cost."],
-  ["Research", "Smithsonian Climate Action", "Completed a 14-week project and produced a documentary on how cities adapt urban planning to climate risk."],
-  ["Arts", "Classical piano", "Golden Classical Music Awards First Prize recipient and solo performer at Weill Recital Hall at Carnegie Hall."],
+  ["Research", "Smithsonian Climate Action", "Selected for a 20-student Smithsonian Climate Action cohort and completed a 14-week research capstone examining how urban planning and public policy shape climate resilience and disaster response."],
+  ["Arts", "Classical piano", "Golden Classical Music Awards First Prize recipient and selected as solo performer at Weill Recital Hall at Carnegie Hall."],
 ];
 
 export default function Home() {
@@ -16,7 +16,7 @@ export default function Home() {
         <a className="wordmark" href="#top">Nidhi Maddi<span>.</span></a>
         <div className="navLinks">
           <a href="#lens">My lens</a><a href="#work">Selected work</a><a href="#credentials">Credentials</a>
-          <a className="navCta" href="mailto:voicetolead@gmail.com">Connect <Arrow /></a>
+          <a className="navCta" href="mailto:nidhimaddi9@gmail.com">Connect <Arrow /></a>
         </div>
       </nav>
 
@@ -62,7 +62,7 @@ export default function Home() {
         </div>
         <div className="workFeature">
           <div><p className="featureIndex">03 / Markets & ideas</p><h2>Studying what<br />captures attention.</h2></div>
-          <div><h3>The Attention Economy</h3><p>Through 24 conversations with economics professors and small-business owners, I examined how trends move through markets, why people follow them, and how attention becomes economic and political power.</p><p className="featureQuote">The project shifted my interest from persuasion alone to the incentives behind persuasion—and the responsibilities of those who profit from it.</p></div>
+          <div><h3>The Attention Economy</h3><p>Through conversations with 14 experts, including economics professors and small-business owners, I examined how trends move through markets, why people follow them, and how attention becomes economic and political power.</p><p className="featureQuote">The project shifted my interest from persuasion alone to the incentives behind persuasion—and the responsibilities of those who profit from it.</p></div>
         </div>
       </section>
 
@@ -77,14 +77,14 @@ export default function Home() {
         <div className="sectionLabel"><span>04</span> Selected recognition</div>
         <div className="honorList">
           <div><span>Speech</span><strong>TFA State Semifinalist · 2× NSDA Nationals Qualifier · 2× NIETOC Qualifier · TOC Qualifier</strong></div>
-          <div><span>Scholarship</span><strong>NSDA Academic All-American · National Merit qualifying score</strong></div>
-          <div><span>Service</span><strong>Bronze President’s Volunteer Service Award</strong></div>
+          <div><span>Scholarship</span><strong>NSDA Academic All-American · National Merit Semifinalist</strong></div>
+          <div><span>Service</span><strong>President’s Volunteer Service Award from iStartValley</strong></div>
           <div><span>Music</span><strong>Golden Classical Music Awards, First Prize · Trinity Level 7</strong></div>
         </div>
       </section>
 
-      <section className="contact section"><p className="eyebrow"><span /> Let’s connect</p><h2>Interested in voice,<br />institutions, or impact?</h2><p>I’m always interested in thoughtful conversations across business, law, civic life, education, and technology.</p><a className="button primary" href="mailto:voicetolead@gmail.com">Start a conversation <Arrow /></a></section>
-      <footer><a className="wordmark footerMark" href="#top">Nidhi Maddi<span>.</span></a><p>© {new Date().getFullYear()} Nidhi Maddi</p><div><a href="https://www.voicetolead.org" target="_blank" rel="noreferrer">VoiceToLead <Arrow /></a><a href="mailto:voicetolead@gmail.com">Email <Arrow /></a></div></footer>
+      <section className="contact section"><p className="eyebrow"><span /> Let’s connect</p><h2>Interested in voice,<br />institutions, or impact?</h2><p>I’m always interested in thoughtful conversations across business, law, civic life, education, and technology.</p><a className="button primary" href="mailto:nidhimaddi9@gmail.com">Start a conversation <Arrow /></a></section>
+      <footer><a className="wordmark footerMark" href="#top">Nidhi Maddi<span>.</span></a><p>© {new Date().getFullYear()} Nidhi Maddi</p><div><a href="https://www.voicetolead.org" target="_blank" rel="noreferrer">VoiceToLead <Arrow /></a><a href="mailto:nidhimaddi9@gmail.com">Email <Arrow /></a></div></footer>
     </main>
   );
 }
