@@ -23,8 +23,8 @@ export default function Home() {
       <section className="hero brandHero" id="top">
         <div className="heroCopy">
           <p className="eyebrow"><span /> Civic communicator · Founder · Researcher</p>
-          <h1>Finding my voice.<br /><em>Expanding who gets heard.</em></h1>
-          <p className="heroLead">I’m Nidhi Maddi, a student, speaker, builder, and civic advocate. My work has taken me from competitive speech and classrooms to voter engagement, media research, and responsible technology.</p>
+          <h1>Finding my voice.<br /><em>Building ideas into action.</em></h1>
+          <p className="heroLead">I’m Nidhi Maddi, a student, speaker, builder, and civic leader. Through entrepreneurship, research, technology, and public engagement, I explore how ideas become organizations and how those organizations can create meaningful impact.</p>
           <div className="heroActions"><a className="button primary" href="#lens">See the throughline <span>↓</span></a><a className="textLink" href="#credentials">View credentials <Arrow /></a></div>
         </div>
         <div className="heroVisual brandVisual">
@@ -46,7 +46,7 @@ export default function Home() {
       </section>
 
       <section className="academicDirection section">
-        <div className="directionText"><p className="chapter">Academic direction</p><h2>Public Policy,<br />Technology &amp;<br />Economic Systems</h2></div>
+        <div className="directionText"><p className="chapter">Academic direction</p><h2>Business,<br />Technology &amp;<br />Public Impact</h2></div>
         <div className="directionBody"><p className="largeCopy">I’m interested in the intersection of public policy, government, technology, and economics—especially how institutions design rules, respond to incentives, and use emerging technologies to shape opportunity and civic participation.</p><p>My work in speech and debate, voter engagement, media literacy, civic technology, and nonprofit leadership has shown me that public problems rarely belong to just one discipline. I want to study how policy and markets can encourage innovation while ensuring that institutions remain ethical, inclusive, and accountable.</p><div className="questionCard"><span>The question I’m carrying forward</span><strong>How can policy, technology, and economic incentives work together to expand opportunity while protecting the public interest?</strong></div></div>
       </section>
 
