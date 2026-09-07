@@ -46,8 +46,8 @@ export default function Home() {
       </section>
 
       <section className="academicDirection section">
-        <div className="directionText"><p className="chapter">Academic direction</p><h2>Legal Studies<br />&amp; Business Ethics</h2></div>
-        <div className="directionBody"><p className="largeCopy">I want to study the rules—written and unwritten—that govern consequential decisions inside businesses and public institutions.</p><p>I’m especially interested in how regulation, organizational incentives, emerging technology, and ethical judgment interact. Legal Studies &amp; Business Ethics gives me the language to connect work I have already begun: protecting minors’ data in an AI speech tool, examining the attention economy, expanding civic participation, and asking how cities distribute climate protection.</p><div className="questionCard"><span>The question I’m carrying forward</span><strong>How can institutions scale opportunity without losing accountability to the people they serve?</strong></div></div>
+        <div className="directionText"><p className="chapter">Academic direction</p><h2>Public Policy,<br />Technology &amp;<br />Economic Systems</h2></div>
+        <div className="directionBody"><p className="largeCopy">I’m interested in the intersection of public policy, government, technology, and economics—especially how institutions design rules, respond to incentives, and use emerging technologies to shape opportunity and civic participation.</p><p>My work in speech and debate, voter engagement, media literacy, civic technology, and nonprofit leadership has shown me that public problems rarely belong to just one discipline. I want to study how policy and markets can encourage innovation while ensuring that institutions remain ethical, inclusive, and accountable.</p><div className="questionCard"><span>The question I’m carrying forward</span><strong>How can policy, technology, and economic incentives work together to expand opportunity while protecting the public interest?</strong></div></div>
       </section>
 
       <section className="work section" id="work">
