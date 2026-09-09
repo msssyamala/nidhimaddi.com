@@ -3,7 +3,7 @@ const Arrow = () => <span aria-hidden="true">↗</span>;
 const credentials = [
   ["Speech & Debate", "President · 65-member team", "Two-time NSDA Nationals qualifier, TFA State semifinalist in Original Oratory, and ranked overall second in Texas for Informative Speaking."],
   ["Civic Participation", "New Voters · League of Women Voters", "Led multi-district voter-registration efforts, represented my school in Collin County, and created civic education for first-time voters."],
-  ["Ideas & Media", "The Attention Economy", "Interviewed 14 experts, economics professors and small-business owners about trends, psychology, markets, and the role attention plays in political campaigns."],
+  ["Ideas & Media", "The Attention Economy", "Interviewed 17 experts, economics professors and small-business owners about trends, psychology, markets, and the role attention plays in political campaigns."],
   ["Education Access", "VoiceToLead · Schoolhouse.world", "Built speaking programs for younger students and tutored 96 learners from 12 countries in math and reading—at no cost."],
   ["Research", "Smithsonian Climate Action", "Selected for a 20-student Smithsonian Climate Action cohort and completed a 14-week research capstone, producing a documentary on how urban planning and public policy shape climate resilience and disaster response."],
   ["Arts", "Classical piano", "Golden Classical Music Awards First Prize recipient and selected as solo performer at Weill Recital Hall at Carnegie Hall."],
@@ -62,7 +62,7 @@ export default function Home() {
         </div>
         <div className="workFeature">
           <div><p className="featureIndex">03 / Markets & ideas</p><h2>Studying what<br />captures attention.</h2></div>
-          <div><h3>The Attention Economy</h3><p>Through conversations with 14 experts, including economics professors and small-business owners, I examined how trends move through markets, why people follow them, and how attention becomes economic and political power.</p><p className="featureQuote">The project shifted my interest from persuasion alone to the incentives behind persuasion—and the responsibilities of those who profit from it.</p></div>
+          <div><h3>The Attention Economy</h3><p>Through conversations with 17 experts, including economics professors and small-business owners, I examined how trends move through markets, why people follow them, and how attention becomes economic and political power.</p><p className="featureQuote">The project shifted my interest from persuasion alone to the incentives behind persuasion—and the responsibilities of those who profit from it.</p></div>
         </div>
       </section>
 
@@ -76,10 +76,11 @@ export default function Home() {
       <section className="honors section">
         <div className="sectionLabel"><span>04</span> Selected recognition</div>
         <div className="honorList">
-          <div><span>Speech</span><strong>TFA State Semifinalist · 2× NSDA Nationals Qualifier · 2× NIETOC Qualifier · TOC Qualifier</strong></div>
-          <div><span>Scholarship</span><strong>NSDA Academic All-American · National Merit Semifinalist</strong></div>
-          <div><span>Service</span><strong>President’s Volunteer Service Award from iStartValley</strong></div>
-          <div><span>Music</span><strong>Golden Classical Music Awards, First Prize · Trinity Level 7</strong></div>
+          <div><span>Speech &amp; Debate</span><strong>Two-time NSDA National Tournament Qualifier · TFA State Semifinalist · Two-time NIETOC Qualifier · Tournament of Champions Qualifier</strong></div>
+          <div><span>Academic Recognition</span><strong>NSDA Academic All-American Award recipient · National Merit Semifinalist</strong></div>
+          <div><span>Service</span><strong>iStart Valley Volunteer Service Award (IVSA) – Bronze Medal</strong></div>
+          <div><span>Language &amp; Culture</span><strong>Junior and Senior Certificates in Telugu Language · Potti Sreeramulu Telugu University</strong></div>
+          <div><span>Classical Piano</span><strong>Golden Classical Music Awards First Prize recipient · Selected soloist at Weill Recital Hall, Carnegie Hall · Trinity Level 7</strong></div>
         </div>
       </section>
 
